@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script>
+		function showMe(){
+			var sh=document.getElementsByTagName("li");
+			var i;
+			console.log(sh);
+			console.log("li values are "+sh[3].innerHTML);
+			for(i=0;i<sh.length;i++)
+				console.log(sh[i].innerHTML);
+		}
+	</script>
+</head>
+<body>
+<h1>We are going to see about tag name property in todays session</h1>
+<ul>
+	<li>Java Script</li>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>React JS</li>
+	<li>Java Script</li>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>React JS</li>
+
+</ul>
+<button onclick="showMe()">Submit</button>
+</body>
+</html>
